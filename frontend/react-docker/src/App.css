@@ -1,0 +1,313 @@
+@font-face{
+    font-family: norseRegular;
+    src: url("./norse.regular.otf") format("opentype");
+  }
+
+#Home-Page-Header {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 150px;
+}
+
+#Home-Page-Header > div{
+  width:100px;
+  align-items: top;
+
+.Home 
+}
+  position: absolute;
+  overflow: hidden;
+  top: 270px;
+  left: 800px;
+  z-index: 1;
+}
+
+#Gods-Button {
+background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: 'norseRegular';
+  font-size: 40px;
+}
+/*HOME PAGE CSS*/
+
+#GetUsers-Button{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: 'norseRegular';
+  font-size: 40px;
+}
+
+.Login{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px; 
+  z-index: 1;  
+}
+
+/*CREATE PAGE CSS*/
+.Create{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+   padding: 10px; 
+   z-index: 1;  
+}
+
+.Login-Form{
+  padding: 10px;
+  width: 20%;
+  z-index: 1;
+}
+#Login-Button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: 'norseRegular';
+  font-size: 30px;
+}
+
+.Create-Form{
+  padding: 10px;
+  width: 20%;
+  z-index: 1;
+}
+#create-God-Button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: 'norseRegular';
+  font-size: 30px;
+}
+/*CREATE PAGE CSS*/
+
+/*DELETE PAGE CSS*/
+.Delete{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+   padding: 10px; 
+   z-index: 1; 
+}
+
+.Delete-Form{
+  padding: 10px;
+  width: 20%;
+  z-index: 1;
+}
+
+#delete-button{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: 'norseRegular';
+  font-size: 30px;
+}
+/*DELETE PAGE CSS*/
+
+/*UPDATE PAGE CSS*/
+.Update{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+   padding: 10px; 
+   z-index: 1; 
+}
+
+.Update-Form{
+  padding: 10px;
+  width: 20%;
+  z-index: 1;
+}
+#update-button{
+background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: 'norseRegular';
+  font-size: 30px;
+}
+/*UPDATE PAGE CSS*/
+
+/*CREATE USER PAGE CSS*/
+.CreateUser{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+   padding: 10px; 
+   z-index: 1; 
+}
+
+.CreateUser-Form{
+  padding: 10px;
+  width: 20%;
+  z-index: 1;
+}
+#CreateUser-Button{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: 'norseRegular';
+  font-size: 30px;
+}
+/*CREATE USER PAGE CSS*/
+
+/*SEARCH PAGE CSS*/
+.Search{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+   padding: 10px; 
+   z-index: 1; 
+}
+#search-box-q {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+#search-box-q:focus {
+  width: 100%;
+}
+
+#search-God-Button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: 'norseRegular';
+  font-size: 30px;
+}
+
+.Search-Bar{
+  padding: 10px;
+  width:20%;
+  z-index: 1;
+}
+
+.Display-Image{
+  padding: 10px;
+  width: 20%;
+}
+
+.Display-Data{
+  padding: 10px;
+  width: 20%;
+  z-index: 1;
+}
+/*SEARCH PAGE CSS*/
+
+/*BACKGROUND CSS*/
+html {
+    background-image: url("home-background.jpg");
+  background-image: no-repeat center center fixed;
+  background-size: cover;
+  background-color: #282c34;
+}
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/*BACKGROUND CSS*/
+
+/*SMOKE BACKGROUND*/
+.App-header:after {
+  content: "";
+  animation: grain 12s steps(10) infinite;
+  background-size: cover;
+  background-image: url("smoke.jpg");
+  height: 300%;
+  width: 300%;
+  opacity: 0.3;
+  position: fixed;
+}
+
+@keyframes grain {
+   0%, 100% { transform:translate(0, 0) }
+  10% { transform:translate(-2%, -3%) }
+  20% { transform:translate(-4%, -3%) }
+  30% { transform:translate(-2%, -1%) }
+  40% { transform:translate(0%, 1%) }
+  50% { transform:translate(2%, 3%) }
+  60% { transform:translate(2%, 1%) }
+  70% { transform:translate(0%, -1%) }
+  80% { transform:translate(-2%, -1%) }
+  90% { transform:translate(0%, 1%) }
+}
+/*SMOKE BACKGROUND*/
+
+.App-link {
+  color: #61dafb;
+}
