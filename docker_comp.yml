@@ -8,17 +8,17 @@ services:
     volumes:
       - ./app:/var/www/html
     environment:
-      MYSQL_DB_CONNECTION: test
-      MYSQL_DB_NAME: test
-      MYSQL_USER: test
-      MYSQL_PASSWORD: test
+      MYSQL_DB_CONNECTION: test123
+      MYSQL_DB_NAME: test123
+      MYSQL_USER: test123
+      MYSQL_PASSWORD: test123
       SITE_URL: http://localhost    
   db:
     container_name: mysqldb
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: my_secret_password
+      MYSQL_ROOT_PASSWORD: password123
       MYSQL_DATABASE: csc226_db
       MYSQL_USER: test123
       MYSQL_PASSWORD: test123
